@@ -1,0 +1,32 @@
+{
+  "name": "nconf-appconfig",
+  "description": "IBM Cloud App Configuration store for nconf",
+  "version": "0.0.1",
+  "author": "josephinejustin@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jojustin/nconf-appconfig.git"
+  },
+  "keywords": [
+    "configuration",
+    "key value store",
+    "nconf",
+    "IBM Cloud App Configuration Service"
+  ],
+  "dependencies": {
+    "async": "0.1.x",
+    "ibm-appconfiguration-node-sdk": "latest"
+  },
+  "devDependencies": {
+    "nconf": "0.5.x",
+    "vows": "^0.8.3"
+  },
+  "license": "MIT",
+  "main": "./lib/nconf-appconfig",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
