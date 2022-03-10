@@ -1,6 +1,6 @@
 # nconf-appconfig
 
-[IBM Cloud App Configuration](https://cloud.ibm.com/docs/app-configuration?topic=app-configuration-getting-started) store for [nconf][0]
+[IBM Cloud App Configuration](https://cloud.ibm.com/docs/app-configuration?topic=app-configuration-getting-started) store for [nconf][https://github.com/indexzero/nconf]
 
 ## Installation
 
