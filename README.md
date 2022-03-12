@@ -27,8 +27,10 @@ The store provided by `nconf-appconfig` will persist all of your configuration s
   //
   require('nconf-appconfig');
   
-  nconf.use('appconfig', { region: 'us-south', guid: 'guid', apikey: 'apikey', collectionId: 'collection', environmentId: 'dev' });
+  nconf.use('appconfig', { region: 'us-south', guid: 'guid', apikey: 'apikey', collectionId: 'collection', environmentId: 'dev', debug: 'true' });
 ```
+
+Refer to [appconfiguration-node-sdk](https://github.com/IBM/appconfiguration-node-sdk#initialize-sdk) for details of the SDK initialization of IBM Cloud App Configuration.
 
 #### Author: Josephine Eskaline Joyce
 
